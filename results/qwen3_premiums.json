@@ -1,0 +1,109 @@
+{
+ "source": "FLORES-200 dev (997 sentences)",
+ "tokenizers": {
+  "qwen3-0.6b": "Qwen/Qwen3-Embedding-0.6B",
+  "bge-m3": "BAAI/bge-m3"
+ },
+ "premiums": {
+  "qwen3-0.6b": {
+   "english": {
+    "pi": 1.0,
+    "tokens": 26255
+   },
+   "indonesian": {
+    "pi": 1.5442,
+    "tokens": 40543
+   },
+   "finnish": {
+    "pi": 1.9734,
+    "tokens": 51811
+   },
+   "swahili": {
+    "pi": 1.9323,
+    "tokens": 50732
+   },
+   "telugu": {
+    "pi": 7.0512,
+    "tokens": 185129
+   },
+   "arabic": {
+    "pi": 1.6301,
+    "tokens": 42798
+   },
+   "bengali": {
+    "pi": 5.053,
+    "tokens": 132667
+   },
+   "russian": {
+    "pi": 1.7731,
+    "tokens": 46553
+   },
+   "japanese": {
+    "pi": 1.4063,
+    "tokens": 36923
+   },
+   "korean": {
+    "pi": 1.6398,
+    "tokens": 43052
+   },
+   "thai": {
+    "pi": 2.5606,
+    "tokens": 67228
+   },
+   "shona": {
+    "pi": 2.1067,
+    "tokens": 55312
+   }
+  },
+  "bge-m3": {
+   "english": {
+    "pi": 1.0,
+    "tokens": 28995
+   },
+   "indonesian": {
+    "pi": 0.9412,
+    "tokens": 27289
+   },
+   "finnish": {
+    "pi": 1.1408,
+    "tokens": 33078
+   },
+   "swahili": {
+    "pi": 1.1644,
+    "tokens": 33763
+   },
+   "telugu": {
+    "pi": 1.3352,
+    "tokens": 38714
+   },
+   "arabic": {
+    "pi": 1.1793,
+    "tokens": 34193
+   },
+   "bengali": {
+    "pi": 1.3792,
+    "tokens": 39989
+   },
+   "russian": {
+    "pi": 1.1855,
+    "tokens": 34374
+   },
+   "japanese": {
+    "pi": 1.1126,
+    "tokens": 32261
+   },
+   "korean": {
+    "pi": 1.1577,
+    "tokens": 33568
+   },
+   "thai": {
+    "pi": 1.0823,
+    "tokens": 31381
+   },
+   "shona": {
+    "pi": 1.6346,
+    "tokens": 47395
+   }
+  }
+ }
+}

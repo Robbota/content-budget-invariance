@@ -1,0 +1,169 @@
+{
+ "premiums": {
+  "bge-m3": {
+   "arabic": {
+    "pi": 1.1792722883255733,
+    "tokens": 34193,
+    "words": 18759,
+    "chars": 110593
+   },
+   "bengali": {
+    "pi": 1.379168822210726,
+    "tokens": 39989,
+    "words": 18756,
+    "chars": 123275
+   },
+   "english": {
+    "pi": 1.0,
+    "tokens": 28995,
+    "words": 20954,
+    "chars": 125194
+   },
+   "finnish": {
+    "pi": 1.1408173823072945,
+    "tokens": 33078,
+    "words": 15308,
+    "chars": 133951
+   },
+   "indonesian": {
+    "pi": 0.9411622693567857,
+    "tokens": 27289,
+    "words": 19069,
+    "chars": 136372
+   },
+   "russian": {
+    "pi": 1.1855147439213658,
+    "tokens": 34374,
+    "words": 19161,
+    "chars": 138102
+   },
+   "shona": {
+    "pi": 1.6345921710639766,
+    "tokens": 47395,
+    "words": 16694,
+    "chars": 140602
+   },
+   "swahili": {
+    "pi": 1.1644421451974478,
+    "tokens": 33763,
+    "words": 20361,
+    "chars": 131676
+   },
+   "telugu": {
+    "pi": 1.3351957234005862,
+    "tokens": 38714,
+    "words": 16388,
+    "chars": 127201
+   }
+  },
+  "me5-base": {
+   "arabic": {
+    "pi": 1.1792722883255733,
+    "tokens": 34193,
+    "words": 18759,
+    "chars": 110593
+   },
+   "bengali": {
+    "pi": 1.379168822210726,
+    "tokens": 39989,
+    "words": 18756,
+    "chars": 123275
+   },
+   "english": {
+    "pi": 1.0,
+    "tokens": 28995,
+    "words": 20954,
+    "chars": 125194
+   },
+   "finnish": {
+    "pi": 1.1408173823072945,
+    "tokens": 33078,
+    "words": 15308,
+    "chars": 133951
+   },
+   "indonesian": {
+    "pi": 0.9411622693567857,
+    "tokens": 27289,
+    "words": 19069,
+    "chars": 136372
+   },
+   "russian": {
+    "pi": 1.1855147439213658,
+    "tokens": 34374,
+    "words": 19161,
+    "chars": 138102
+   },
+   "shona": {
+    "pi": 1.6345921710639766,
+    "tokens": 47395,
+    "words": 16694,
+    "chars": 140602
+   },
+   "swahili": {
+    "pi": 1.1644421451974478,
+    "tokens": 33763,
+    "words": 20361,
+    "chars": 131676
+   },
+   "telugu": {
+    "pi": 1.3351957234005862,
+    "tokens": 38714,
+    "words": 16388,
+    "chars": 127201
+   }
+  }
+ },
+ "t_en": {
+  "bge-m3": 1.383745346950463,
+  "me5-base": 1.383745346950463
+ },
+ "cpt_en": {
+  "bge-m3": 4.317778927401276,
+  "me5-base": 4.317778927401276
+ },
+ "usable_questions": {
+  "arabic": 1053,
+  "bengali": 123,
+  "english": 597,
+  "finnish": 994,
+  "indonesian": 660,
+  "russian": 1032,
+  "swahili": 565,
+  "telugu": 687
+ },
+ "swap_log": [
+  "clash: english (1.000) and indonesian (0.941), gap 0.059 < 0.15",
+  "  candidate arabic (pi 1.179) rejected: within 0.015 of swahili",
+  "  candidate bengali: only 123 usable questions",
+  "  candidate russian (pi 1.186) rejected: within 0.021 of swahili",
+  "  -> NO candidate satisfies the rule; kept english and indonesian",
+  "clash: english (1.000) and finnish (1.141), gap 0.141 < 0.15",
+  "  candidate arabic (pi 1.179) rejected: within 0.015 of swahili",
+  "  candidate bengali: only 123 usable questions",
+  "  candidate russian (pi 1.186) rejected: within 0.021 of swahili",
+  "  -> NO candidate satisfies the rule; kept english and finnish",
+  "clash: finnish (1.141) and swahili (1.164), gap 0.024 < 0.15",
+  "  candidate arabic (pi 1.179) rejected: within 0.015 of swahili",
+  "  candidate bengali: only 123 usable questions",
+  "  candidate russian (pi 1.186) rejected: within 0.021 of swahili",
+  "  -> NO candidate satisfies the rule; kept finnish and swahili"
+ ],
+ "langs_final": [
+  "english",
+  "indonesian",
+  "finnish",
+  "swahili",
+  "telugu"
+ ],
+ "env": {
+  "python": "3.13.16",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "transformers": "5.22.1",
+  "torch": "2.14.1+cu130",
+  "faiss": "1.16.0",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "gpu": "Tesla T4",
+  "started": "2026-11-20 08:18:14"
+ }
+}
