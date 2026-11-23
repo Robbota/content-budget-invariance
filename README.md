@@ -1,6 +1,6 @@
 # Content-Budget Invariance in Multilingual Dense Retrieval
 
-Code and results for the paper *Content-Budget Invariance in Multilingual Dense Retrieval: Evaluating the Impact of Tokenizer Fertility on Text Chunking Boundaries* (Robert Bota, MSc Computer Science, University of Zimbabwe, 2026).
+Code and results for the paper *Content-Budget Invariance in Multilingual Dense Retrieval: Evaluating the Impact of Tokenizer Fertility on Text Chunking Boundaries*
 
 The study tests whether the retrieval-optimal chunk budget of a frozen multilingual dense retriever is the same across languages once the budget is measured in content rather than subword tokens. Fertility-Scaled Budgeting (FSB) scales an English budget by each language's FLORES-200 token premium. Experiments use TyDi QA (English, Indonesian, Finnish, Swahili, Telugu), BGE-M3 and Multilingual-E5-base, and exact FAISS search.
 
